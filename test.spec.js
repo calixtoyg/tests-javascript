@@ -48,8 +48,7 @@ describe('Tests for index.js', function () {
         });
 
         it('should throw an error if passed array is not odd', function () {
-            const arr = [2,5,7];
-            expect(getMiddleNumber(arr)).toBe(5)
+            expect(() => getMiddleNumber([2,2,5,6])).toThrow();
         });
 
     });

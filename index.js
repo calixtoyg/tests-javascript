@@ -13,7 +13,6 @@ function getFirstElement(arr) {
  * @param arr
  */
 function getMiddleNumber(arr) {
-
 }
 
 /**
