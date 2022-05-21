@@ -9,6 +9,14 @@ function getFirstElement(arr) {
 }
 
 /**
+ * Should return number in the middle of the array. If array is not odd it should throw an error
+ * @param arr
+ */
+function getMiddleNumber(arr) {
+
+}
+
+/**
  * Should return the biggest number in the array.
  * @param arr
  */
@@ -41,4 +49,4 @@ function removeDuplicates(arr) {
 }
 
 
-export {getLastElement, getFirstElement, getBiggestNumber, getLowestNumber, removeDuplicates, order}
+export {getLastElement, getFirstElement, getMiddleNumber, getBiggestNumber, getLowestNumber, removeDuplicates, order}
