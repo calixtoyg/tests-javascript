@@ -4,6 +4,10 @@
 function getLastElement(arr) {
 }
 
+function getFirstElement(arr) {
+
+}
+
 /**
  * Should return the biggest number in the array.
  * @param arr
@@ -37,4 +41,4 @@ function removeDuplicates(arr) {
 }
 
 
-export {getLastElement, getBiggestNumber, getLowestNumber, removeDuplicates, order}
+export {getLastElement, getFirstElement, getBiggestNumber, getLowestNumber, removeDuplicates, order}

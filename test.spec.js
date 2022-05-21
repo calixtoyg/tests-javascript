@@ -1,7 +1,13 @@
-import {getBiggestNumber, getLastElement, getLowestNumber, order, removeDuplicates} from "./index";
+import {getBiggestNumber, getFirstElement, getLastElement, getLowestNumber, order, removeDuplicates} from "./index";
 
 describe('Tests for index.js', function () {
-    it('should return the last element of they array', function () {
+    it('should return the first element of an array', function () {
+        const arr = [1,5,6,9]
+        let firstElement = getFirstElement(arr);
+        expect(firstElement).toBe(1)
+    });
+
+    it('should return the last element of an array', function () {
         const arr = [1,5,6,9]
         let lastElement = getLastElement(arr);
         console.log("Testing an array of numbers")
@@ -52,10 +58,6 @@ describe('Tests for index.js', function () {
         const arr = [2,4,2,6,7,8,8,9,9,2,4,8,9]
         const orderArr = order(arr, "asc");
         expect(orderArr).toEqual( [2, 2, 2, 4, 4, 6, 7, 8, 8, 8, 9, 9, 9])
-    });
-
-    it('esta pija no anda', function () {
-        expect(2 + 2 ).toBe(4)
     });
 
 
