@@ -2,7 +2,6 @@
  * Should return the last element of the array that is passed as an argument, it should not modify the array.
  */
 function getLastElement(arr) {
-    return arr[arr.length - 1]
 }
 
 /**
