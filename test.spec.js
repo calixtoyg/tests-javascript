@@ -54,5 +54,9 @@ describe('Tests for index.js', function () {
         expect(orderArr).toEqual( [2, 2, 2, 4, 4, 6, 7, 8, 8, 8, 9, 9, 9])
     });
 
+    it('esta pija no anda', function () {
+        expect(2 + 2 ).toBe(4)
+    });
+
 
 });
